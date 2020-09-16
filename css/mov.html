@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Css</title>
+<style>
+.p
+{
+border:1px red solid;
+margin-left:560px;
+margin-right:560px;
+text-decoration-line:underline;
+}
+.div{
+border:1px red solid;
+background-color:brown;
+color:white;
+margin-top:5px;
+}
+.p1{
+border:1px red solid;
+margin-right:1200px;
+}
+ul{
+border:1px red solid;
+margin-right:1200px;
+
+}
+
+ul li::before {
+  content: "\2022";
+  color: violet;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+
+}
+  .table{
+border:1px red solid;
+margin-top:3px;
+}
+</style>
+</head>
+<body>
+<div class="p"><center><b>MOVIE DASHBOARD</b></center></div>
+<div class="div"><p class="p1">This is an introduction</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie scelerisque volutpat. Vivamus non urna enim. Morbi in purus sollicitudin, fermentum mauris pharetra, malesuada tellus. Praesent viverra odio a laoreet rhoncus. Ut hendrerit suscipit porttitor. Pellentesque molestie justo mauris, ut pretium tortor tincidunt quis. </p><p> The Following information are displayed for movies</p>
+<ul type:square class="ul">
+<li>Movie Name</li>
+<li>Movie Artist</li>
+<li>Movie Realease year</li>
+<li>Imdb link</li>
+</ul>
+</div>
+<div class="table">
+<table width="100%" border="1">
+<tr><td colspan="4"><center>Movie List</center></td></tr
+<tr>
+<th>Movie name</th>
+<th>Movie Artist</th>
+<th>Release year</th>
+<th>Imdb Link</th>
+</tr>
+<tr>
+<td>pursuit of Happiness</td>
+<td>Will Smith</td>
+<td>2006</td>
+<td><a href="" style="color:blue;">Imdb link</a></td>
+</tr>
+<tr>
+<td>SlumbDog Millionarie</td>
+<td>Dev Patel Anil kapoor</td>
+<td>2008</td>
+<td><a href="" style="color:blue;">Imdb link</a></td>
+</tr>
+<tr>
+<td>Vantage Point</td>
+<td>Dennis Quaid_Manew Fox</td>
+<td>2008</td>
+<td><a href="" style="color:blue;">Imdb link</a></td>
+</tr>
+<tr>
+<td>Argo</td>
+<td>Ben Affock,Bryan Crataton</td>
+<td>2012</td>
+<td><a href="" style="color:blue;">Imdb link</a></td>
+</tr>
+<tr>
+<td colspan="4">The above Table represents Movie Details</td></tr>
+</table>
+</div>
+</body>
+</html>
